@@ -1,0 +1,78 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.loginToggle {
+  margin-left: 900px;
+  margin-top: 10px;
+}
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal button {
+  margin-right: 10px;
+}
+
+.modal button:last-child {
+  margin-right: 0;
+}
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  border-width: "5px";
+  border-radius: 10px;
+  margin-top: 2px;
+  border: 1px solid #ccc;
+  transition: linear all 0.4s;
+  cursor: pointer;
+}
+.topBar:hover {
+  box-shadow: 1px 1px 10px 0px gray;
+}
+/* .chatBox{
+    align-Items:center;
+    flex-direction: column;
+    padding: 3px;
+    background-color: white;
+    border-radius:10px;
+    border-Width:"1px";
+} */
+.chatBox:hover {
+  box-shadow: 1px 1px 10px 0px gray;
+}
+.chatsComp {
+  flex-direction: column;
+  padding: 3px;
+  background-color: white;
+  border-radius: 10px;
+  border-width: "1px";
+}
+.chatsComp:hover {
+  box-shadow: 1px 1px 10px 0px gray;
+}
+.chatTag:hover {
+  box-shadow: 1px 1px 10px 0px teal;
+}
+.chats {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5px;
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.authError {
+  color: #d01b24;
+}
